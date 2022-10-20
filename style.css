@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/images/jeremy-brady-vK26p2SFX3E-unsplash.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.center {
+    border: 2px solid black;
+    max-width: 60vw;
+    margin: auto;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px;
+    margin: 13px 15px;
+    background-color: #3d3f49;
+    color: #fff;
+}
+
+.details {
+    padding: 15px 60px;
+}
+
+.details label {
+    font-size: 1em;
+}
+
+.details #sname {
+    margin-top: 15px;
+    width: 96.5%;
+    height: 2.5vh;
+    padding: 10px;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-family: 600;
+}
+
+.details .height {
+    height: 2.5vh;
+    padding: 10px;
+    border: 1px solid gray;
+    font-size: 0.9rem;
+    font-weight: 500;
+    width: 21vw;
+    border-radius: 5px;
+}
+
+.details .between {
+    display: flex;
+    justify-content: space-between;
+    width: 96.5%;
+    margin-top: 10px;
+}
+
+.details #space {
+    margin-top: 10px;
+}
+
+.details select {
+    height: 6vh;
+    font-size: 00.9rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: #3d3f49;
+    color: #fff;
+}
+
+hr {
+    margin: 40px 0px;
+}
+
+.headline {
+    margin: 30px 0px;
+}
+
+.details p {
+    margin-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    empty-cells: hide;
+    color: black;
+}
+
+table tbody td,
+th {
+    border: 2px solid #c3cad8;
+padding: 10px;
+width: 60%;
+}
+
+table tbody td{
+    text-align: center;
+}
+table tbody th{
+    font-size: 0.8em;
+    background-color: #d4d4d4;
+}
+
+input[type="radio"]{
+    width: 25px;
+    height: 20px;
+}
+textarea{
+    padding: 10px ;
+    width: 670px;
+    height: 200px;
+}
+.button {
+    text-align: center;
+}
+.button button{
+  border: 2px solid  #18bd5b;
+    background-color: #18bd5b;
+   color: #fff;
+    width: 170px;
+    height: 46px;
+border-radius: 5px;
+font-size: 1em;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #007a31;
+    border: 2px solid #007a31;
+}
